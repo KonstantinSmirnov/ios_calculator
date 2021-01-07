@@ -3,7 +3,7 @@
 This is a test application
 
 Figma design:
-https://www.figma.com/file/6U46TrhGGsggsCBiC8Ww9c/ios_calculator?node-id=0%3A1
+https://www.figma.com/file/6U46TrhGGsggsCBiC8Ww9c/ios_calculator?node-id=1%3A2
 
 
 Open problems:
