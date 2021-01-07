@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         
         for button in buttonsOrange {
             button.layer.borderWidth = 1
-            button.layer.borderColor = #colorLiteral(red: 0.955473721, green: 0.9827311635, blue: 0.9467319846, alpha: 1)
+            button.layer.borderColor = #colorLiteral(red: 0.585175693, green: 0.5851898789, blue: 0.5851822495, alpha: 1)
         }
         
         refreshDisplay(number: currentNumber)
