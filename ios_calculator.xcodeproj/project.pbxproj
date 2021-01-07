@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B370276925A7B551000B06A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B370276825A7B551000B06A9 /* README.md */; };
+		B370276C25A7B9A2000B06A9 /* ios_app_screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = B370276B25A7B9A2000B06A9 /* ios_app_screenshot.png */; };
 		B3C511C525A7729E005900DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C511C425A7729E005900DB /* AppDelegate.swift */; };
 		B3C511C725A7729E005900DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C511C625A7729E005900DB /* SceneDelegate.swift */; };
 		B3C511C925A7729E005900DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C511C825A7729E005900DB /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		B370276825A7B551000B06A9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B370276B25A7B9A2000B06A9 /* ios_app_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_app_screenshot.png; sourceTree = "<group>"; };
 		B3C511C125A7729E005900DB /* ios_calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C511C425A7729E005900DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3C511C625A7729E005900DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				B370276825A7B551000B06A9 /* README.md */,
+				B370276B25A7B9A2000B06A9 /* ios_app_screenshot.png */,
 				B3C511C325A7729E005900DB /* ios_calculator */,
 				B3C511C225A7729E005900DB /* Products */,
 			);
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3C511D125A772A1005900DB /* LaunchScreen.storyboard in Resources */,
+				B370276C25A7B9A2000B06A9 /* ios_app_screenshot.png in Resources */,
 				B3C511CE25A772A1005900DB /* Assets.xcassets in Resources */,
 				B370276925A7B551000B06A9 /* README.md in Resources */,
 				B3C511CC25A7729E005900DB /* Main.storyboard in Resources */,
