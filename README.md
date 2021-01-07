@@ -8,7 +8,6 @@ Figma design:
 https://www.figma.com/file/6U46TrhGGsggsCBiC8Ww9c/ios_calculator?node-id=1%3A2
 
 
-Open problems:
+**Open problems:**
 - long numbers formatting problem - scientific formatting applied automaticaly to Float.
-/ios_app_screenshot.png
-/Users/smi/projects/ios_calculator/ios_app_screenshot.png
+9999999 -> 1e+07
