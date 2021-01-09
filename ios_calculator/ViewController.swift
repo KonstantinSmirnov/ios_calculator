@@ -32,12 +32,12 @@ class ViewController: UIViewController {
         
         //Establish visual appearance
         for button in buttonsGray {
-            button.layer.borderWidth = 1
+            button.layer.borderWidth = 0.5
             button.layer.borderColor = #colorLiteral(red: 0.585175693, green: 0.5851898789, blue: 0.5851822495, alpha: 1)
         }
         
         for button in buttonsOrange {
-            button.layer.borderWidth = 1
+            button.layer.borderWidth = 0.5
             button.layer.borderColor = #colorLiteral(red: 0.585175693, green: 0.5851898789, blue: 0.5851822495, alpha: 1)
         }
         
