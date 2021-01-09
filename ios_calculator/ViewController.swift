@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     @IBOutlet weak var displayScreen: UILabel!
@@ -15,10 +16,15 @@ class ViewController: UIViewController {
     @IBAction func pressedButton(sender: UIButton) {
         calculate(input: sender.currentTitle!)
         
+        // Change button opacity and return it back in a while
         sender.alpha = 0.9
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             sender.alpha = 1.0
         }
+        
+        // Play click sound
+        audioPlayer = try! AVAudioPlayer(contentsOf: clickSound)
+        audioPlayer.play()
     }
     
     var currentNumber: Float = 0.0
@@ -29,6 +35,12 @@ class ViewController: UIViewController {
     
     let digitsArray: [String] = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9" ]
     let mathActionsArray: [String] = ["+", "-", "×", "÷"]
+    
+    // Load click sound and prepare to use it
+    let clickSound = URL(fileURLWithPath: Bundle.main.path(forResource: "keyboard-click", ofType: "wav")!)
+    var audioPlayer = AVAudioPlayer()
+    
+   
 
     
     override func viewDidLoad() {
@@ -135,4 +147,3 @@ class ViewController: UIViewController {
     }
 
 }
-

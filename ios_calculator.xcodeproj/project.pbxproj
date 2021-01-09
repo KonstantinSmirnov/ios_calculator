@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B370276925A7B551000B06A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B370276825A7B551000B06A9 /* README.md */; };
 		B370276C25A7B9A2000B06A9 /* ios_app_screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = B370276B25A7B9A2000B06A9 /* ios_app_screenshot.png */; };
+		B38E412E25AA697E0073D5A4 /* keyboard-click.wav in Resources */ = {isa = PBXBuildFile; fileRef = B38E412D25AA697E0073D5A4 /* keyboard-click.wav */; };
 		B399EBEC25A8641A00FCEA8C /* calc-icon-ios-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B399EBEB25A8641A00FCEA8C /* calc-icon-ios-83.5@2x.png */; };
 		B3C511C525A7729E005900DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C511C425A7729E005900DB /* AppDelegate.swift */; };
 		B3C511C725A7729E005900DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C511C625A7729E005900DB /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		B370276825A7B551000B06A9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B370276B25A7B9A2000B06A9 /* ios_app_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_app_screenshot.png; sourceTree = "<group>"; };
+		B38E412D25AA697E0073D5A4 /* keyboard-click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keyboard-click.wav"; sourceTree = "<group>"; };
 		B399EBEB25A8641A00FCEA8C /* calc-icon-ios-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calc-icon-ios-83.5@2x.png"; sourceTree = "<group>"; };
 		B3C511C125A7729E005900DB /* ios_calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C511C425A7729E005900DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B38E412B25AA66F90073D5A4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B38E412D25AA697E0073D5A4 /* keyboard-click.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		B3C511B825A7729E005900DB = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 				B3C511CD25A772A1005900DB /* Assets.xcassets */,
 				B3C511CF25A772A1005900DB /* LaunchScreen.storyboard */,
 				B3C511D225A772A1005900DB /* Info.plist */,
+				B38E412B25AA66F90073D5A4 /* Sounds */,
 			);
 			path = ios_calculator;
 			sourceTree = "<group>";
@@ -134,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3C511D125A772A1005900DB /* LaunchScreen.storyboard in Resources */,
+				B38E412E25AA697E0073D5A4 /* keyboard-click.wav in Resources */,
 				B370276C25A7B9A2000B06A9 /* ios_app_screenshot.png in Resources */,
 				B3C511CE25A772A1005900DB /* Assets.xcassets in Resources */,
 				B370276925A7B551000B06A9 /* README.md in Resources */,
