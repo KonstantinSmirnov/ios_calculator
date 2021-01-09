@@ -14,6 +14,11 @@ class ViewController: UIViewController {
     
     @IBAction func pressedButton(sender: UIButton) {
         calculate(input: sender.currentTitle!)
+        
+        sender.alpha = 0.9
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.alpha = 1.0
+        }
     }
     
     var currentNumber: Float = 0.0
